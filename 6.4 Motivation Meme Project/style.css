@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+#div1{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    font-size: large;
+  }
+  
+.aapl-img{
+    border: 5px solid #a965f2;
+    width: 80%;
+}
