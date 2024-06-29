@@ -5,6 +5,7 @@ CREATE TABLE student (
 );
 
 -- One to One --
+
 CREATE TABLE contact_detail (
   id INTEGER REFERENCES student(id) UNIQUE,
   tel TEXT,
@@ -25,6 +26,7 @@ ON student.id = contact_detail.id
 
 
 -- Many to One --
+
 CREATE TABLE homework_submission (
   id SERIAL PRIMARY KEY,
   mark INTEGER,
