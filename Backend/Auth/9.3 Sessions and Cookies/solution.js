@@ -4,7 +4,7 @@ import pg from "pg";
 import bcrypt from "bcrypt";
 import passport from "passport";
 import { Strategy } from "passport-local";
-import session from "express-session";
+import session from "express-session"; 
 import env from "dotenv";
 
 const app = express();
@@ -29,7 +29,7 @@ const db = new pg.Client({
   user: "postgres",
   host: "localhost",
   database: "secrets",
-  password: "123456",
+  password: "sql1234",
   port: 5432,
 });
 db.connect();
