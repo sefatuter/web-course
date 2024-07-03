@@ -146,7 +146,6 @@ app.post("/register", async (req, res) => {
   }
 });
 
-
 ////////////////SUBMIT POST ROUTE/////////////////
 app.post("/submit", async function (req, res) {
   const submittedSecret = req.body.secret;
